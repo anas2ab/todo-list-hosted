@@ -14,7 +14,7 @@ app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
 
-mongoose.connect("mongodb+srv://admin-anas:test123@cluster0.ra4yq.mongodb.net/todolistDB");
+mongoose.connect("urlhere");
 
 const items = [];
 const workItems = [];
